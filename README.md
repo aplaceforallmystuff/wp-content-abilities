@@ -162,24 +162,6 @@ curl -s -u "username:app-password" -X POST \
   "https://your-site.com/wp-json/mcp/mcp-adapter-default-server"
 ```
 
-## Integration with Obsidian
-
-Use the companion Obsidian template (see `Templates/WordPress Post.md`) to draft posts with frontmatter:
-
-```yaml
----
-wp_title: "My Post Title"
-wp_status: draft
-wp_excerpt: "Post summary"
-wp_categories: [tech, ai]
-wp_tags: [Claude, MCP]
-wp_featured_image: ""
-wp_format: standard
----
-
-Post content in Markdown...
-```
-
 ## Troubleshooting
 
 ### Abilities not appearing in MCP
